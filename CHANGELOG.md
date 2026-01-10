@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-26)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0376e06`](https://github.com/stdlib-js/stdlib/commit/0376e06fa1a8c4aebe3bfe8f708136f86432f9eb) - **docs:** improve doctests for ndarray instances in `ndarray/fliplr` [(#9672)](https://github.com/stdlib-js/stdlib/pull/9672) _(by Shreelaxmi Hegde)_
 -   [`f1fbeb4`](https://github.com/stdlib-js/stdlib/commit/f1fbeb47d9a2a6672bc9690b0b006534168e904a) - **feat:** add `ndarray/fliplr` [(#8589)](https://github.com/stdlib-js/stdlib/pull/8589) _(by Muhammad Haris)_
 
 </details>
@@ -34,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Muhammad Haris
+-   Shreelaxmi Hegde
 
 </section>
 
