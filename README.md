@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-fliplr/tags). For example,
+
+```javascript
 import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@v0.1.0-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ var y = fliplr( x );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@v0.1.0-deno/mod.js';
+import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
