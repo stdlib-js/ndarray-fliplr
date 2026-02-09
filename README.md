@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-fliplr/tags). For example,
+
+```javascript
 import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@v0.1.1-esm/index.mjs';
 ```
 
@@ -99,7 +104,7 @@ var y = fliplr( x );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@v0.1.1-esm/index.mjs';
+import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@esm/index.mjs';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
