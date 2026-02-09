@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@esm/index.mjs';
+import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@v0.1.1-esm/index.mjs';
 ```
 
 #### fliplr( x )
@@ -99,7 +99,7 @@ var y = fliplr( x );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@esm/index.mjs';
+import fliplr from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-fliplr@v0.1.1-esm/index.mjs';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
