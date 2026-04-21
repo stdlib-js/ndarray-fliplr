@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,16 +16,20 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return a read-only view of an input ndarray in which the order of elements along the last dimension is reversed.
+* Returns a read-only view of an input ndarray in which the order of elements along the last dimension is reversed.
 *
-* @module @stdlib/ndarray-fliplr
+* @param x - input array
+* @returns output array
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray-ctor' );
-* var fliplr = require( '@stdlib/ndarray-fliplr' );
 *
 * var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 * var shape = [ 3, 2 ];
@@ -38,12 +42,9 @@
 * var y = fliplr( x );
 * // returns <ndarray>[ [ 2.0, 1.0 ], [ 4.0, 3.0 ], [ 6.0, 5.0 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function fliplr<T extends ndarray = ndarray>( x: T ): T;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = fliplr;
