@@ -1,5 +1,5 @@
-"use strict";var t=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var i=t(function(m,a){
-var s=require('@stdlib/assert-is-ndarray-like/dist'),u=require('@stdlib/ndarray-base-fliplr/dist'),n=require('@stdlib/error-tools-fmtprodmsg/dist');function o(r){if(!s(r))throw new TypeError(n('2aF4f',r));return u(r,!1)}a.exports=o
-});var f=i();module.exports=f;
+"use strict";var s=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(t){throw (e=0, t)}};};var i=s(function(v,a){
+var u=require('@stdlib/assert-is-ndarray-like/dist'),n=require('@stdlib/ndarray-base-fliplr/dist'),o=require('@stdlib/error-tools-fmtprodmsg/dist');function f(r){if(!u(r))throw new TypeError(o('2aF4f',r));return n(r,!1)}a.exports=f
+});var l=i();module.exports=l;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
