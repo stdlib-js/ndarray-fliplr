@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-05)
+## Unreleased (2026-11-18)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`1664e13`](https://github.com/stdlib-js/stdlib/commit/1664e13a3939bd3baefc43fd0a84a4a30998044f) - **test:** use dedicated zero-dimensional tensor constructor in `ndarray/fliplr` [(#16692)](https://github.com/stdlib-js/stdlib/pull/16692) _(by Kartik)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`5aadc76`](https://github.com/stdlib-js/stdlib/commit/5aadc76d03d8e3c511de2f14131be73dfe118af9) - **bench:** refactor to use string interpolation in `ndarray` [(#11445)](https://github.com/stdlib-js/stdlib/pull/11445) _(by Karan Anand)_
 
 </details>
@@ -24,9 +26,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Kartik
+-   Philipp Burckhardt
 
 </section>
 
